@@ -1,0 +1,70 @@
+/* 기본 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* 헤더 스타일 */
+header {
+    background: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+/* 소개 섹션 */
+.about {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 프로젝트 슬라이더 */
+.projects {
+    padding: 20px;
+    text-align: center;
+}
+
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid #0099cc;
+    border-radius: 10px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    background-color: #e6f7ff;
+    padding: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-right: 1px solid #0099cc;
+}
+
+/* 푸터 */
+footer {
+    background: #0099cc;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #f0f8ff;
+    text-decoration: none;
+}
